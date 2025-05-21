@@ -50,9 +50,9 @@ then
 fi
 
 # Clean previous build artifacts and compile the writer utility
-echo "Cleaning previous build artifacts and compiling writer..."
-make clean
-make
+# echo "Cleaning previous build artifacts and compiling writer..."
+# make clean
+# make
 
 # Use compiled writer binary instead of writer.sh
 for i in $( seq 1 $NUMFILES )
